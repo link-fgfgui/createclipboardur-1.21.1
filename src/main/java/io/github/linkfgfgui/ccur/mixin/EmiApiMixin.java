@@ -60,9 +60,7 @@ public class EmiApiMixin {
             absScreen = Shared.screen;
         }
 
-        client.setScreen(new RecipeScreen(
-                absScreen
-                , recipes));
+        client.setScreen(new RecipeScreen(absScreen, recipes));
         ci.cancel();
     }
 }

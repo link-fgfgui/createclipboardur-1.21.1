@@ -5,10 +5,11 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
+    "AbstractContainerScreenMixin",
+    "ClipboardEntryMixin",
     "ClipboardScreenMixin",
     "EmiApiMixin",
-    "AbstractContainerScreenMixin",
-    "ClipboardEntryMixin"
+    "ScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
